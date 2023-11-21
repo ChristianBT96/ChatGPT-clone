@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Planet facts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+    <h1>Planet facts</h1>
+    <section class="input-form">
+        <form>
+            <label for="planetary-objects">Choose a planetary object you want 5 facts about below</label>
+            <select id="planetary-objects" name="planetary-objects">
+                <option value="sun">Sun</option>
+                <option value="mercury">Mercury</option>
+                <option value="venus">Venus</option>
+                <option value="earth">Earth</option>
+                <option value="mars">Mars</option>
+                <option value="jupiter">Jupiter</option>
+                <option value="saturn">Saturn</option>
+                <option value="uranus">Uranus</option>
+                <option value="neptune">Neptune</option>
+                <option value="pluto">Pluto</option>
+            </select>
+            <button type="button" class="get-facts">Get facts</button>
+        </form>
+        <span class="loader hidden"></span>
+    </section>
+
+
+    <div id="response"></div>
+
+</main>
+</body>
+
+<script src="main.js"></script>
+</html>
